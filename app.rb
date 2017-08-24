@@ -2,6 +2,6 @@ require 'sinatra'
 
 get '/' do
 
- 'Hello everyone, did you that Michael More is not cut out to handle the booze'
+ "Welcome to MIKE SUCKS .COM Where the only thing more loserY is well nothing hmmmm "
 
 end

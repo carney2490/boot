@@ -2,13 +2,13 @@ version: 0.0
 os: linux
 files:
   - source: /app.rb
-    destination: /tmp/joe
+    destination: /tmp/
 hooks:
-   BeforeInstall:
+  BeforeInstall:
     - location: scripts/install_dependencies
       timeout: 300
       runas: root
-    - location: scripts/start_container
+    - location: scripts/start_server
       timeout: 300
       runas: root
   ApplicationStop:

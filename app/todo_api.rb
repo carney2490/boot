@@ -1,10 +1,7 @@
-class TodoApi < Sinatra::Base
+require 'sinatra/base'
 
-
-get '/' do
-
- "Welcome to MIKE SUCKS .COM Where the only thing more loserY is well nothing hmmmm "
-
-end
-
+class MyApp < Sinatra::Base
+  get "/" do
+    "hello world"
+  end
 end

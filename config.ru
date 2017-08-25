@@ -1,3 +1,3 @@
-require "./config/environment"
+require File.expand_path('my_app', File.dirname(__FILE__))
 
-run Rack::URLMap.new("/" => TodoApi)
+run MyApp

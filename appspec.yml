@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /rackup
+  - source: /rackup config.ru
     destination: /tmp/joe
 hooks:
   BeforeInstall:

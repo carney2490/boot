@@ -2,4 +2,4 @@
 
 
 
-ruby /app.rb
+echo hello

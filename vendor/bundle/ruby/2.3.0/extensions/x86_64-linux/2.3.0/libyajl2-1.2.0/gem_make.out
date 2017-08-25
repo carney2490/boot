@@ -1,0 +1,19 @@
+current directory: /home/joe/Documents/ec2/ElasticBeanStalk-with-CodeDeploy/vendor/bundle/ruby/2.3.0/gems/libyajl2-1.2.0/ext/libyajl2
+/usr/bin/ruby2.3 -r ./siteconf20170825-23454-1lmc096.rb extconf.rb
+creating Makefile
+/home/joe/Documents/ec2/ElasticBeanStalk-with-CodeDeploy/vendor/bundle/ruby/2.3.0/gems/libyajl2-1.2.0/ext/libyajl2
+
+current directory: /home/joe/Documents/ec2/ElasticBeanStalk-with-CodeDeploy/vendor/bundle/ruby/2.3.0/gems/libyajl2-1.2.0/ext/libyajl2
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: /home/joe/Documents/ec2/ElasticBeanStalk-with-CodeDeploy/vendor/bundle/ruby/2.3.0/gems/libyajl2-1.2.0/ext/libyajl2
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/joe/Documents/ec2/ElasticBeanStalk-with-CodeDeploy/vendor/bundle/ruby/2.3.0/gems/libyajl2-1.2.0/ext/libyajl2
+make "DESTDIR=" install
+mkdir -p /home/joe/Documents/ec2/ElasticBeanStalk-with-CodeDeploy/vendor/bundle/ruby/2.3.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/lib
+cp libyajl.so /home/joe/Documents/ec2/ElasticBeanStalk-with-CodeDeploy/vendor/bundle/ruby/2.3.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/lib/libyajl.so
+mkdir -p /home/joe/Documents/ec2/ElasticBeanStalk-with-CodeDeploy/vendor/bundle/ruby/2.3.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/include/yajl
+cp yajl/*.h /home/joe/Documents/ec2/ElasticBeanStalk-with-CodeDeploy/vendor/bundle/ruby/2.3.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/include/yajl

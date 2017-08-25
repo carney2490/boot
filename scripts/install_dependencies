@@ -1,7 +1,8 @@
 #!/bin/bash
 yum install -y httpd
-gem install rubygems-update
-update_rubygems
+echo ruby -v
+sudo apt-get update
+sudo apt-get install ruby2.2.2
 gem install rack -v=1.6.4
 gem install sinatra
 

@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: ./
-    destination: /home/b9b/www
+    destination: /home/ubuntu/www
 hooks:
   ApplicationStop:
     - location: codedeploy/application_stop.sh

@@ -1,3 +1,10 @@
 #!/usr/bin/ruby
 
-puts "mike sucks"
+
+require 'sinatra'
+
+get '/' do
+ 
+"mike sucks"
+ 
+end

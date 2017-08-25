@@ -1,8 +1,7 @@
 #!/bin/bash
 yum install -y httpd
-echo ruby -v
-sudo apt-get update
-sudo apt-get install ruby2.2.2
+ruby -v
+gem install rake
 gem install rack -v=1.6.4
 gem install sinatra
 

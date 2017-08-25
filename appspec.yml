@@ -1,7 +1,7 @@
 os: linux
 files:
   - source: /app.rb
-    destination: /var/www/html/
+    destination: /app.rb/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
@@ -14,3 +14,4 @@ hooks:
     - location: scripts/stop_server
       timeout: 300
       runas: root
+

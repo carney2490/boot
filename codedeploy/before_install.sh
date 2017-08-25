@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # On debian-like system, use apt-get to install
-for pkg in ruby2.0-dev ruby2.0 make autoconf g++ git; do
-  aptitude show $pkg | grep -q 'State: installed'
-  if [ $? != 0 ]; then
-    apt-get -y install $pkg
-  fi
-done
+#for pkg in ruby2.0-dev ruby2.0 make autoconf g++ git; do
+#  aptitude show $pkg | grep -q 'State: installed'
+#  if [ $? != 0 ]; then
+#    apt-get -y install $pkg
+#  fi
+#done
 
 # Don't install documentation for gems:
 #echo 'gem: --no-rdoc --no-ri' >> /etc/gemrc

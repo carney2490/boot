@@ -1,6 +1,5 @@
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
-ruby "2.3.4"
-
-gem 'sinatra', '~>1.4.0'
-
+gem 'foreman'
+gem 'sinatra'
+gem 'thin'

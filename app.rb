@@ -1,7 +1,10 @@
 require 'sinatra'
+require 'sinatra/base'
 
-get '/' do
-
- "Welcome to MIKE SUCKS .COM Where the only thing more loserY is well nothing hmmmm "
-
+class App < Sinatra::Base
+  get '/' do
+    'Hello from docker!'
+  end
 end
+
+

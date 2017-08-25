@@ -1,2 +1,4 @@
-require './app.rb'
-run Sinatra::Application
+$:.unshift(File.dirname(__FILE__))
+
+require 'app'
+run App

@@ -2,11 +2,11 @@ version: 0.0
 os: linux
 files:
   - source: ./
-    destination: /var/www/simple-app
+    destination: /home/ubuntu/www
 hooks:
   ApplicationStop:
     - location: codedeploy/application_stop.sh
-      runas: ubuntu
+      runas: root
   BeforeInstall:
     - location: codedeploy/before_install.sh
       runas: root
@@ -19,4 +19,4 @@ hooks:
       timeout: 3000
   ValidateService:
     - location: codedeploy/validate_service.sh
-      runas: ubuntu
+      runas: root

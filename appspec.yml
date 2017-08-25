@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /app.rb
-    destination: /home/user/public
+    destination: /tmp/joe
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies

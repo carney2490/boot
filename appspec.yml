@@ -1,18 +1,22 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /var/www/html/
+  - source: ./
+    destination: /var/www/simple-app
 hooks:
-  BeforeInstall:
-    - location: scripts/install_dependencies
-      timeout: 300
-      runas: root
-    - location: scripts/start_server
-      timeout: 300
-      runas: root
   ApplicationStop:
-    - location: scripts/stop_server
-      timeout: 300
+    - location: codedeploy/application_stop.sh
+      runas: ubuntu
+  BeforeInstall:
+    - location: codedeploy/before_install.sh
       runas: root
-
+      # Allow plenty of time to compile all the things.
+      # https://xkcd.com/303/
+      timeout: 6800
+  ApplicationStart:
+    - location: codedeploy/application_start.sh
+      runas: root
+      timeout: 3000
+  ValidateService:
+    - location: codedeploy/validate_service.sh
+      runas: ubuntu

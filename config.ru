@@ -1,2 +1,3 @@
-require './app.rb'
-run Sinatra::Application
+require "./config/environment"
+
+run Rack::URLMap.new("/" => TodoApi)

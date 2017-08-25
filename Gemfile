@@ -1,6 +1,18 @@
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
-ruby "2.3.4"
+gem 'rack'
+gem 'sinatra'
+gem 'activesupport'
+gem 'puma'
 
-gem 'sinatra', '~>1.4.0'
+group :development do
 
+end
+
+group :test do
+  gem 'rspec'
+  gem 'rack-test'
+  gem 'simplecov'
+  gem 'json_spec', git: 'https://github.com/indirect/json_spec', ref: 'patch-1'
+  gem 'webmock'
+end

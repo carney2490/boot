@@ -12,14 +12,14 @@ done
 #echo 'gem: --no-rdoc --no-ri' >> /etc/gemrc
 
 # Now, we can install the required gems
-for gem in chef ohai librarian-chef io-console; do
-  gem2.0 list | grep -q $gem
-  if [ $? != 0 ]; then
-    gem2.0 install $gem
-
-    if [ $? != 0 ]; then
-      echo "Failed to install required gems. Cannot continue with deployment"
-      exit 1
-    fi
-  fi
-done
+#for gem in chef ohai librarian-chef io-console; do
+#  gem2.0 list | grep -q $gem
+#  if [ $? != 0 ]; then
+#    gem2.0 install $gem
+#
+#    if [ $? != 0 ]; then
+#      echo "Failed to install required gems. Cannot continue with deployment"
+#      exit 1
+#    fi
+#  fi
+#done

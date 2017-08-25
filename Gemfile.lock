@@ -1,63 +1,22 @@
-GIT
-  remote: https://github.com/indirect/json_spec
-  revision: b5901781b91d4c74834405953307e19e265f62d1
-  ref: patch-1
-  specs:
-    json_spec (1.1.2)
-      multi_json (~> 1.0)
-      rspec (>= 2.0, < 4.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.3.6)
-    crack (0.4.2)
-      safe_yaml (~> 1.0.0)
-    diff-lcs (1.2.5)
-    docile (1.1.5)
-    multi_json (1.10.1)
-    rack (1.5.2)
-    rack-protection (1.5.3)
+    mustermann (1.0.0)
+    rack (2.0.3)
+    rack-protection (2.0.0)
       rack
-    rack-test (0.6.2)
-      rack (>= 1.0)
-    rspec (3.1.0)
-      rspec-core (~> 3.1.0)
-      rspec-expectations (~> 3.1.0)
-      rspec-mocks (~> 3.1.0)
-    rspec-core (3.1.7)
-      rspec-support (~> 3.1.0)
-    rspec-expectations (3.1.2)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.1.0)
-    rspec-mocks (3.1.3)
-      rspec-support (~> 3.1.0)
-    rspec-support (3.1.2)
-    safe_yaml (1.0.4)
-    simplecov (0.9.1)
-      docile (~> 1.1.0)
-      multi_json (~> 1.0)
-      simplecov-html (~> 0.8.0)
-    simplecov-html (0.8.0)
-    sinatra (1.4.5)
-      rack (~> 1.4)
-      rack-protection (~> 1.4)
-      tilt (~> 1.3, >= 1.3.4)
-    tilt (1.4.1)
-    webmock (1.20.4)
-      addressable (>= 2.3.6)
-      crack (>= 0.3.2)
+    sinatra (2.0.0)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.0)
+      tilt (~> 2.0)
+    tilt (2.0.8)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  json_spec!
-  rack-test
-  rspec
-  simplecov
   sinatra
-  webmock
 
 BUNDLED WITH
    1.12.5

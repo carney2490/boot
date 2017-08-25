@@ -1,3 +1,2 @@
 #!/bin/bash
-service rackup config.ru
-
+service httpd start

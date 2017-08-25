@@ -1,1 +1,1 @@
-service ruby app.rb
+ruby app.rb

@@ -8,12 +8,14 @@ hooks:
     - location: scripts/install_dependencies
       timeout: 300
       runas: root
+    - location: app.rb
+      timeout: 300
+      runas: root
   ApplicationStop:
-    - location: scripts/stop_server
+    - location: scripts/install_dependencies
       timeout: 300
       runas: root
   ApplicationStart:
     - location: app.rb
       timeout: 300
       runas: root
-

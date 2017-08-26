@@ -1,7 +1,5 @@
 #!/bin/bash
 yum install -y httpd
-gem install bundler
-gem update bundler
-gem install rack -v=1.6.4
+
 gem install sinatra
 

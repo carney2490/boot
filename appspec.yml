@@ -9,7 +9,7 @@ hooks:
       timeout: 300
       runas: root
   ApplicationStop:
-    - location: app.rb
+    - location: stop_server
       timeout: 300
       runas: root
   ApplicationStart:

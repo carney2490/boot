@@ -19,5 +19,6 @@ if [ "$DIR" != "$RDIR" ]; then
   echo "DIR '$RDIR' resolves to '$DIR'"
 fi
 echo "DIR is '$DIR'"
-
- rackup ./config.ru
+ 
+ rackup '$DIR'/config.ru
+ 

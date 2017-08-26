@@ -1,4 +1,3 @@
-#!/bin/bash
-   echo pwd
+#!/usr/bin/env   
 
 rackup

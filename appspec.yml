@@ -4,7 +4,7 @@ files:
   - source: /.
     destination: /var/www/html/
 permissions:
-   - object: scripts/
+   - object: scripts/rubystuff
      mode: 644
 hooks:
   BeforeInstall:

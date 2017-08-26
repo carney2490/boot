@@ -1,4 +1,0 @@
- #!/bin/bash
-
-
-web: bundle exec ruby ./app.rb

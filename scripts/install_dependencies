@@ -1,11 +1,11 @@
 #!/bin/bash
-sudo yum update
-sudo yum install ruby
-sudo yum install wget
+sudo apt-get update
+sudo apt-get install ruby
+sudo apt-get install wget
+sudo apt-get install git
 
- sudo yum install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+ sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
  cd ~
- sudo yum install git
  git clone git://github.com/sstephenson/rbenv.git .rbenv
  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
  echo 'if which rbenv >> /dev/null'; then 'eval "$(rbenv init -)"; fi' >> ~/.bashrc
@@ -20,9 +20,6 @@ gem update --system
 bundle install
  rbenv install 2.2.3
 rbenv global 2.2.3
- ruby -v
- 
-gem install bundler
-
 gem install sinatra
+gem install bundler
 

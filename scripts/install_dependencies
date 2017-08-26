@@ -7,5 +7,6 @@ sudo yum install wget
 
 cd /home/ec2-user
 
-wget https://bucket-name.s3.amazonaws.com/latest/install
+ruby -v
+
 

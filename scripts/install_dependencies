@@ -9,4 +9,6 @@ cd /home/ec2-user
 
 ruby -v
 
+gem install bundler
 
+gem install sinatra

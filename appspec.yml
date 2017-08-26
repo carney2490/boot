@@ -16,7 +16,7 @@ hooks:
       timeout: 300
       runas: 
   ApplicationStart:
-    - location: scripts/rubystuff/config.ru
+    - location: scripts/rubystuff/Procfile
       timeout: 300
       runas:
    

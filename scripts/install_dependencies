@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gem install sinatra
+sudo gem install sinatra
 echo 'gem env home'
  
  

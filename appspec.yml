@@ -3,18 +3,8 @@ os: linux
 files:
   - source: /.
     destination: /var/www/html/
-
-language: ruby
-rvm:
-  - 2.4.1
-  - jruby-head
-before_install:  # For jruby-head to work.
-  - gem install bundler
-  - gem update bundler
 hooks:
   BeforeInstall:
-    - gem install bundler
-    - gem update bundler
     - location: scripts/install_dependencies
       timeout: 300
       runas: root
@@ -29,3 +19,4 @@ hooks:
     - location: app.rb
       timeout: 300
       runas: root
+

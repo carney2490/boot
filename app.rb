@@ -1,11 +1,8 @@
 #!/usr/bin/env ruby
+require 'sinatra/base'
 
-
-require 'sinatra'
-
-get '/' do
- 
-"mike sucks"
- 
+class MyApp < Sinatra::Base
+ get '/' do
+  "mike sucks"
+ end
 end
-

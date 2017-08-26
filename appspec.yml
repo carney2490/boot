@@ -6,7 +6,6 @@ files:
 language: ruby
 rvm:
   - 2.4.1
-  - jruby-head
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies

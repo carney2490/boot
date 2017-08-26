@@ -13,7 +13,7 @@ hooks:
       timeout: 300
       runas: 
   ApplicationStart:
-    - location: rackup.sh
+    - location: rubystuff
       timeout: 300
       runas:
 

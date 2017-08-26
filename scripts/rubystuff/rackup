@@ -1,3 +1,2 @@
 #!/bin/bash
-cd ..
-rackup config.ru
+echo $PWD

@@ -1,4 +1,2 @@
- #!/bin/bash
- 
-
- rackup ./config.ru
+#!/bin/bash
+echo $PWD

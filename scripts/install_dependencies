@@ -1,5 +1,6 @@
 #!/bin/bash
- exec $SHELL
-gem env home
+
+gem install sinatra
+echo 'gem env home'
  
  

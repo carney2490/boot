@@ -16,7 +16,7 @@ hooks:
       timeout: 300
       runas: 
   ApplicationStart:
-    - location: scripts/rubystuff/rackup.sh
+    - location: scripts/rubystuff/rackup
       timeout: 300
       runas:
    

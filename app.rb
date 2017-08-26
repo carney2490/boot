@@ -1,12 +1,11 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 
-#require 'sinatra'
-#
-#get '/' do
-# 
-#"mike sucks"
-# 
-#end
+require 'sinatra'
 
-"hello"
+get '/' do
+ 
+"mike sucks"
+ 
+end
+

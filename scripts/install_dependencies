@@ -1,5 +1,5 @@
 #!/bin/bash
-yum install -y httpd
-
+gem install bundler
+gem update bundler
 gem install sinatra
 

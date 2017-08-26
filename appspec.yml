@@ -9,9 +9,12 @@ rvm:
   - jruby-head
 hooks:
   BeforeInstall:
-    - gem install bundler
-    - gem update bundler
-    - gem install sinatra
+    - location: scripts/install_dependencies
+      timeout: 300
+      runas: root
+    - location: app.rb
+      timeout: 300
+      runas: root
   ApplicationStop:
     - location: app.rb
       timeout: 300
@@ -20,5 +23,3 @@ hooks:
     - location: app.rb
       timeout: 300
       runas: root
-
-

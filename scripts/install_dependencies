@@ -2,6 +2,7 @@
 sudo yum update
 sudo yum install ruby
 sudo yum install wget
+gem install sinatra
 
  sudo yum install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
  cd ~
@@ -19,7 +20,7 @@ gem update --system
 bundle install
  rbenv install 2.2.3
 rbenv global 2.2.3
- ruby -v
+ echo "ruby -v"
  
 gem install bundler
 

@@ -1,21 +1,2 @@
 #!/bin/bash
-sudo yum update
-sudo yum install ruby
-sudo yum install wget
-
-
-sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
-
-git clone git://github.com/sstephenson/rbenv.git .rbenv
-git clone git://github.com/sstephenson/ruby-build.git .rbenv/plugins/ruby-build
-git clone https://github.com/sstephenson/rbenv-gem-rehash.git .rbenv/plugins/rbenv-gem-rehash
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> .bashrc
-echo 'eval "$(rbenv init -)"' >> .bashrc
-exec $SHELL
-
-rbenv install 2.2.3
-rbenv global 2.2.3
-gem install bundler
-
-gem install sinatra
 

@@ -9,6 +9,3 @@ cd /home/ec2-user
 
 wget https://bucket-name.s3.amazonaws.com/latest/install
 
-chmod +x ./install
-
-sudo ./install auto

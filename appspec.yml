@@ -4,7 +4,7 @@ files:
   - source: /.
     destination: /var/www/html/
 permissions:
-   - object: scripts/rubystuff 
+   - object: scripts/
      mode: 644
 hooks:
   BeforeInstall:
@@ -16,7 +16,8 @@ hooks:
       timeout: 300
       runas: 
   ApplicationStart:
-    - location: scripts/rubystuff
+    - location: scripts/rubystuff/rackup
       timeout: 300
       runas:
+   
 

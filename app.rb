@@ -1,10 +1,12 @@
 #!/usr/bin/ruby
 
 
-require 'sinatra'
+#require 'sinatra'
+#
+#get '/' do
+# 
+#"mike sucks"
+# 
+#end
 
-get '/' do
- 
-"mike sucks"
- 
-end
+"hello"

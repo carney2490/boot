@@ -9,8 +9,7 @@ rvm:
   - jruby-head
 hooks:
   BeforeInstall:
-    - gem install bundler
-    - gem update bundler
+   
     - location: scripts/install_dependencies
       timeout: 300
       runas: root

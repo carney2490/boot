@@ -1,8 +1,7 @@
 #!/bin/bash
 yum install -y httpd
-ruby -v
-
-gem install rake
+gem install bundler
+gem update bundler
 gem install rack -v=1.6.4
 gem install sinatra
 

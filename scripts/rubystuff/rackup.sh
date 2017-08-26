@@ -20,5 +20,5 @@ if [ "$DIR" != "$RDIR" ]; then
 fi
 echo "DIR is '$DIR'"
  
- rackup '$DIR'/config.ru
+ rackup $DIR/config.ru
  

@@ -1,8 +1,11 @@
 version: 0.0
-os: linux
+os: ubuntu
 files:
   - source: /.
     destination: /var/www/html/
+permissions:
+   - object: scripts/rubystuff 
+     mode: 644
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
@@ -13,7 +16,7 @@ hooks:
       timeout: 300
       runas: 
   ApplicationStart:
-    - location: rubystuff
+    - location: scripts/rubystuff
       timeout: 300
       runas:
 

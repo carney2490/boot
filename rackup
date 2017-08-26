@@ -1,3 +1,4 @@
-#!/bin/bash
-
-rackup
+ #!/bin/bash
+ echo pwd
+ sudo composer install
+ sudo vendor/bin/phing www

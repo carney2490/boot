@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
-require 'app.rb'
+require '/app.rb'
 run MyApp

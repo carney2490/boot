@@ -7,13 +7,13 @@ hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
       timeout: 300
-      runas: root
+      runas: 
   ApplicationStop:
     - location: scripts/install_dependencies
       timeout: 300
-      runas: root
+      runas: 
   ApplicationStart:
     - location: app.rb
       timeout: 300
-      runas: joseph.mckenzie
+      runas:
 

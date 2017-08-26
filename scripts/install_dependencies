@@ -15,5 +15,7 @@ yum bundle install
  rbenv install 2.2.3
 rbenv global 2.2.3
  ruby -v
-gem install bundler
-bundle install
+ rvm 2.2.3
+ gem install sinatra
+ 
+ 

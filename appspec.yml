@@ -13,7 +13,7 @@ hooks:
       timeout: 300
       runas: 
   ApplicationStart:
-    - location: scripts/rubystuff
+    - location: rubystuff
       timeout: 300
       runas:
 

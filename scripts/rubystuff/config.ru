@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
-require "'$DIR'/app.rb"
+require "./app.rb"
 run MyApp
+
